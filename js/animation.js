@@ -20,7 +20,7 @@ function drawStar(star) {
 	ctx.beginPath();
 	ctx.moveTo(star.x, star.y);
 	ctx.lineTo(star.x + star.length, star.y + star.length);
-	ctx.strokeStyle = `rgba(255, 255, 255, ${star.opacity})`;
+	ctx.strokeStyle = `rgba(209, 23, 2, ${star.opacity})`;
 	ctx.lineWidth = 2;
 	ctx.stroke();
 }
