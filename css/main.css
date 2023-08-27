@@ -29,7 +29,7 @@ canvas {
     width: 500px;
     height: 500px;
 }
-.main-img button{
+.main-img button, .qoute-section button{
     background-color: transparent;
     color: white;
     border: none;
@@ -37,4 +37,7 @@ canvas {
     padding: 15px 40px;
     border-radius: 50px;
     font-size: 16px;
+}
+.main-img button:hover, .qoute-section button:hover{
+    cursor: pointer;
 }
